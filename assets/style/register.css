@@ -1,0 +1,137 @@
+:root {
+    --color-grey: #626262;
+    --color-white: #f5f8ff;
+    --color-blue: #04396c;
+    --color-black-black: #9B9B9B;
+    --color-input: #c4c4c4;
+
+}
+body{
+    background-color: var(--color-white);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#mysection {
+   
+    background-color: var(--color-white);
+}
+
+#mysection>.welcomemsg {
+    text-align: center;
+    font-size: 30px;
+    line-height: 33px;
+    color: var(--color-blue);
+}
+
+.container>.formbox {
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+   
+}
+
+.form-group {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group>.mylabel1 {
+    display: block;
+    color: var(--color-grey);
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.myinput {
+    width: 99%;
+    margin-top: 5px;
+    padding: 12px 0;
+    border: 0.5px solid var(--color-input);
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 2%);
+}
+
+.myinput::placeholder {
+    color: var(--color-grey);
+    padding-left: 20px;
+
+}
+
+.btn-container {
+    width: 20%;
+    float: right;
+    margin: 10px 30px;
+}
+
+.register-btn {
+    padding: 10px 15px;
+    background-color: var(--color-blue);
+    width: 100%;
+    border: 1px solid var(--color-grey);
+    border-top-left-radius: 10px;
+    color: #f5f8ff;
+    text-transform: capitalize;
+
+
+}
+
+#mysection .content-form-container {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.content-form-container>.wlc-back {
+    font-size: 35px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #04396c;
+
+}
+
+.content-form-container>.amazing {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #576F7F;
+    letter-spacing: 0.4px;
+
+}
+
+.content-form-container>.login {
+    font-size: 36px;
+    line-height: 40px;
+    color: #576F7F;
+    letter-spacing: 0.4px;
+}
+
+.forget-container{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.forget-container> .pass-word , .dont-have-acct , .reset{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #576F7F;
+ 
+}
+    .forget-container .reset{
+        color: #576F7F;
+        text-decoration: none;
+    }
+    .forget-container .reset:hover{
+        color: red;
+    }

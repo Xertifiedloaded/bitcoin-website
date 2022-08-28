@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(/assets/images/home-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-nav {
+    width: 95%;
+    margin: 0px auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+    
+
+}
+
+.content {
+    width: 50%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .text-container{
+    background-color: black;
+    opacity: 0.6;
+} */
+.text-container>.welcome {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.text-container>.frontend {
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.logo>.xerty {
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+
+
+}
+
+.updated {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 300;
+text-transform: capitalize;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item>.list-item {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.text-container {
+    position: relative;
+}
+
+.text-container::after {
+    content: "";
+    width: 70%;
+    background-color: black;
+    opacity: 0.3;
+    padding: 70px 85px;
+    top: 5px;
+    position: absolute;
+}
