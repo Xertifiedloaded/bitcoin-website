@@ -319,7 +319,10 @@ ul {
     text-transform: capitalize;
     margin-left: 40px;
 
-
+}
+.blog{
+    text-decoration: none;
+    color: black;
 }
 
 .my-section3 {
