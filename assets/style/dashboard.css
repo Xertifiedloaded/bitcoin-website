@@ -113,7 +113,7 @@ a:hover {
 .col-1>.col-1-row-1 {
     width: 100%;
     /* border: 1px solid red; */
-    height: 150px;
+    /* height: 150px; */
     margin: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -170,4 +170,27 @@ a:hover {
     background-color: white;
     box-shadow: 2px 20px rgb(0 0 0 / 5%);
     margin-bottom: 10px;
+}
+
+.btn2{
+   padding: 13px;
+   background-color: #04396c;
+   border-top-left-radius: 10px;
+   border: none;
+   color: white;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+}
+.atm{
+    font-size: 14px;
+    color: #04396c;
+}
+footer{
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: #fff;
+    text-align: center;
+    text-transform: capitalize;
 }
