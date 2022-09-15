@@ -50,9 +50,8 @@ body {
     align-items: center;
     width: 100%;
     align-items: center;
-
-
 }
+
 
 .list-menu>.list-item .btn {
     border: 1px solid #04396c;
@@ -194,3 +193,14 @@ footer{
     text-align: center;
     text-transform: capitalize;
 }
+
+@media screen and (max-width:600px){
+.desktop {
+ display: none;
+
+}
+
+
+
+}
+    

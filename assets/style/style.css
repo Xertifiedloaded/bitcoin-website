@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #f5f8ff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
@@ -22,9 +22,11 @@ body {
 }
 
 .logo-nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .right {
@@ -34,7 +36,6 @@ body {
 
 .item-menu {
     display: flex;
-    flex: 0 0 40%;
     justify-content: space-around;
     text-transform: capitalize;
 }
@@ -54,7 +55,7 @@ ul {
 }
 
 .right-bar {
-    width: 50%;
+    width: 100%;
 }
 
 .items2 {
@@ -320,7 +321,8 @@ ul {
     margin-left: 40px;
 
 }
-.blog{
+
+.blog {
     text-decoration: none;
     color: black;
 }
@@ -607,9 +609,10 @@ ul {
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 100px;
+}
 
-
-
+.mobile {
+    display: none;
 }
 
 .get-data-btn>.rss {
@@ -629,8 +632,78 @@ ul {
     display: inline-block;
 
 }
-.get-data-btn:hover{
+
+.get-data-btn:hover {
     background-color: white;
     color: #04396c;
-    border:3px solid #04396c;
+    border: 3px solid #04396c;
+}
+
+@media screen and (max-width:600px) {
+    .desktop {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .fa-solid {
+        font-size: 35px;
+    }
+
+    .mobile {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .mobile .hamburger {
+        display: flex;
+        justify-content: end;
+    }
+
+    .mobile .item-menu {
+        width: 100%;
+        color: red;
+        background-color: white;
+        border: 2px solid white;
+        height: 250px;
+        display: block
+    }
+
+    .mobile .close-btn {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .mobile .my-items {
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        /* justify-content: center; */
+        list-style: none;
+        color: #04396c;
+    }
+
+    .mobile .hide {
+        /* display: none; */
+        position: absolute;
+        left: 150px;
+        top: 20px;
+    }
+   .btn-mobile{
+    padding: 10px 20px;
+    margin-left: 5px;
+   }
+   .list{
+    width: 50%;
+   }
 }
