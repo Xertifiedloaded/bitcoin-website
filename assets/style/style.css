@@ -14,11 +14,16 @@ body {
 }
 
 .logo {
-    width: 30%;
+    width: 50%;
 }
-
+.xchange{
+    color: goldenrod;
+}
 .logo>img {
     width: 100%;
+}
+.logo-name{
+    font-size: 30px;
 }
 
 .logo-nav {
@@ -56,8 +61,14 @@ ul {
 
 .right-bar {
     width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
 }
-
+.common{
+    margin-left: 20px;
+}
 .items2 {
     border: 1px solid black;
     width: 100px;
@@ -326,7 +337,12 @@ ul {
     text-decoration: none;
     color: black;
 }
-
+.blog:hover{
+    color: white;
+}
+.link{
+    padding: 10px 0;
+}
 .my-section3 {
     background-color: #04396c;
 }
@@ -679,9 +695,13 @@ ul {
     }
 
     .mobile .close-btn {
-        width: 100%;
+        width: 85%;
         display: flex;
         justify-content: end;
+        margin: 0 auto;
+    }
+    .fa-xmark{
+        color: #04396c;
     }
 
     .mobile .my-items {
@@ -694,7 +714,7 @@ ul {
     }
 
     .mobile .hide {
-        /* display: none; */
+        display: none;
         position: absolute;
         left: 150px;
         top: 20px;
@@ -706,4 +726,147 @@ ul {
    .list{
     width: 50%;
    }
+   .btn-mobile{
+    padding: 15px 30px;
+    border-top-left-radius: 15px;
+    border-color: #04396c;
+    border: 1px solid #04396c;
+   }
+   .anchormobile{
+    text-decoration: none;
+    text-transform: capitalize;
+   
+   }
+   .register{
+    color: white;
+   }
+.two{
+    background-color: #04396c;
+   
+}
+.image-mobile{
+    display: none;
+}
+.content-container{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.hero-bar-container{
+    display: block;
+    width: 100%;
+}
+.left{
+    width: 100%;
+    text-align: center;
+}
+.right{
+    width: 100%;
+}
+.container-right{
+    display: block;
+    width: 100%;
+}
+.right1{
+    width: 100%;
+}
+.right2{
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    display: block;
+}
+.image-converter{
+    width: 100%;
+    
+}
+ .phone{
+    width: 50%;
+}
+.hero-side{
+    width: 100%;
+}
+.btn-container{
+    width: 40%;
+    /* margin: 10px 0; */
+    /* border: 1px solid red; */
+   
+}
+.flex-content{
+    display: block;
+    width: 100%;
+}
+.pricing{
+    width: 100%;
+}
+.price-box{
+    display: none;
+}
+.box1{
+    display: block;
+}
+.data{
+    display: block;
+}
+.pricing{
+    display: none;
+}
+.content2{
+    width: 100%;
+}
+.footer-container{
+    width: 100%;
+    display: block;
+}
+.logo{
+    width: 50%;
+  
+}
+.logo-name{
+    font-size: 100%;
+}
+.xchange{
+    color: goldenrod;
+}
+.social-text{
+    width: 100%;
+}
+.container{
+    margin-bottom: 30px;
+}
+.social , .support{
+    width: 100%;
+}
+.text7{
+    line-height: 1.8;
+}
+.social-icon{
+    width: 20%;
+}
+.support{
+    display: block;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+}
+.social-logo-icon{
+   
+    padding: 0;
+}
+.footer-menu{
+  width: 100%;
+  padding: 0;
+}
+.legal{
+    font-size: 20px;
+}
+.container-new{
+    width: 100%;
+}
+.footer-item{
+    width: 100%;
+    padding: 0;
+}
 }
