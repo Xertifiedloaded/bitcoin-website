@@ -270,8 +270,8 @@ ul {
 }
 
 .hero-content1> {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .number-text {
@@ -693,10 +693,9 @@ ul {
 
     .mobile .item-menu {
         width: 100%;
-        color: red;
         background-color: white;
         border: 2px solid white;
-        height: 250px;
+        height: 150px;
         display: block
     }
 
@@ -723,7 +722,7 @@ ul {
     .mobile .hide {
         display: block;
         position: absolute;
-        left: 30px;
+        left: 25px;
         top: 20px;
       
     }
@@ -763,7 +762,8 @@ ul {
     width: 100%;
 }
 .all{
-    width: ;
+    width:100% ;
+    display: block;
 }
 .left{
     width: 100%;
@@ -800,6 +800,7 @@ ul {
 }
 .hero-side{
     width: 100%;
+    display: block;
 }
 .btn-container{
     width: 40%;
@@ -887,8 +888,16 @@ ul {
 }
 .paragraph1{
  /* padding: 0 20px; */
-   /* width: 80%; */
+   width: 100%;
    font-size: 16px;
 }
+.container-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.mobile-container{
+    display: block;
 
+}
 }
