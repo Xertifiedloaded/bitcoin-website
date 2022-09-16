@@ -307,17 +307,21 @@ ul {
 }
 
 .container-2 {
+    width: 100%;
     border: 1px solid #04396c;
-    height: 80px;
+    height: 90px;
     border-top: none;
     border-right: none;
     border-bottom: none;
+    margin-left: 20px;
+    color: #04396c
 }
 
 .container-2 {
-    font-size: 17px;
-    color: #04396c;
-    margin-left: 20px;
+    /* font-size: 17px;
+    color: #04396c; */
+    /* margin-left: 20px; */
+    /* width: 100%; */
 
 }
 
@@ -713,20 +717,19 @@ ul {
         /* justify-content: center; */
         list-style: none;
         color: #04396c;
+        padding: 0;
     }
 
     .mobile .hide {
         display: block;
         position: absolute;
-        left: 150px;
+        left: 30px;
         top: 20px;
+      
     }
-   .btn-mobile{
-    padding: 10px 20px;
-    margin-left: 5px;
-   }
+   
    .list{
-    width: 50%;
+    width: 100%;
    }
    .btn-mobile{
     padding: 15px 30px;
@@ -759,6 +762,9 @@ ul {
     display: block;
     width: 100%;
 }
+.all{
+    width: ;
+}
 .left{
     width: 100%;
     text-align: center;
@@ -786,6 +792,11 @@ ul {
 }
  .phone{
     width: 50%;
+}
+.container-2{
+    width: 100%;
+    margin: 0;
+   
 }
 .hero-side{
     width: 100%;
@@ -871,4 +882,13 @@ ul {
     width: 100%;
     padding: 0;
 }
+.hero-side{
+    widows: 100%;
+}
+.paragraph1{
+ /* padding: 0 20px; */
+   /* width: 80%; */
+   font-size: 16px;
+}
+
 }
