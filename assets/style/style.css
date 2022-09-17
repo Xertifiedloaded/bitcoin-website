@@ -720,7 +720,7 @@ margin-bottom: none2;
     }
 
     .mobile .hide {
-        display: block;
+        display: none;
         position: absolute;
         left: 25px;
         top: 20px;
