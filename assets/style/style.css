@@ -686,7 +686,7 @@ margin-bottom: none2;
         position: relative;
     }
 
-    .mobile .hamburger {
+    .mobile .toggle-menu{
         display: flex;
         justify-content: end;
     }
