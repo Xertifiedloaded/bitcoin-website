@@ -14,5 +14,3 @@ function showMenu() {
     }
 }
 toggleMenu.addEventListener("click", showMenu)
-
-
