@@ -135,3 +135,9 @@ body{
     .forget-container .reset:hover{
         color: red;
     }
+
+    @media screen and (max-width:600px) {
+        .container{
+            width: 100%;
+        }
+    }
